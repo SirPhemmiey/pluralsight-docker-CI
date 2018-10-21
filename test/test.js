@@ -8,7 +8,7 @@ describe('GET /', function(){
   it('expects HTTP response 200', function(done){
     request(app)
      .get('/')
-   .expect(400)
+   .expect(200)
    .end(function(err, res) {
      if (err) return done(err);
      done()
