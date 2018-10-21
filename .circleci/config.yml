@@ -36,11 +36,7 @@ jobs:
 
 
 
-
-
-      - run:
-          name: Test
-          command: yarn test
-          no_output_timeout: 60s
+      # run tests!
+      - run: yarn test
 
 
