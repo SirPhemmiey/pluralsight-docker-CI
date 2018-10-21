@@ -8,6 +8,9 @@
   "license": "Will be full of vulnerabilities!",
   "dependencies": {
     "express": "4.16.3",
-    "pug": "2.0.3"
+    "jade": "^1.11.0",
+    "mocha": "^5.2.0",
+    "pug": "2.0.3",
+    "supertest": "^3.3.0"
   }
 }

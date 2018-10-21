@@ -6,10 +6,10 @@ var express = require('express'),
     app = express();
 
 app.set('views', 'views');
-app.set('view engine', 'pug');
+app.set('view engine', 'jade');
 
 app.get('/', function(req, res) {
-    res.render('home.pug', {
+    res.render('home', {
   });
 });
 
