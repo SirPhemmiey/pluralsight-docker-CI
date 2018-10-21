@@ -5,8 +5,7 @@
   "description": "Demo app for Web container demonstrations",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "mocha test/test.js"
+    "start": "node app.js"
   },
   "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
   "license": "Will be full of vulnerabilities!",

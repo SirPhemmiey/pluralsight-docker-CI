@@ -5,6 +5,7 @@
 var express = require('express'),
     app = express();
 
+// Use  jade as a template engine
 app.set('views', 'views');
 app.set('view engine', 'jade');
 
