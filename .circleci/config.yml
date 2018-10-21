@@ -36,8 +36,7 @@ jobs:
 
 
 
-      # run tests!
-      - run: yarn test
+
 
       - run:
           name: Test
