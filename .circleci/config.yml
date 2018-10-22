@@ -20,8 +20,8 @@ jobs:
       - checkout
       - setup_remote_docker
       - deploy:
-        name: DOCKER_HUB_TRIGGER
-        command: "${DOCKER_HUB_TRIGGER}"
+          name: DOCKER_HUB_TRIGGER
+          command: "${DOCKER_HUB_TRIGGER}"
 
         # Download and cache dependencies
       - restore_cache:
