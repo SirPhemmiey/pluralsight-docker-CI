@@ -22,7 +22,7 @@ jobs:
       - deployment:
           dockerhub:
             branch: master
-              commands:
+              command:
                 - $DOCKER_HUB_TRIGGER
 
       # Download and cache dependencies
