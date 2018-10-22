@@ -19,13 +19,11 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      - deployment:
-          dockerhub:
-            branch: master
-              command:
-                - $DOCKER_HUB_TRIGGER
+      - deploy:
+        name: DOCKER_HUB_TRIGGER
+        command: "${DOCKER_HUB_TRIGGER}"
 
-      # Download and cache dependencies
+        # Download and cache dependencies
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
